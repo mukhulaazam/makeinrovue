@@ -4,6 +4,7 @@ import Nav from './components/Nav.vue'
 import About from './components/About.vue'
 import Projects from './components/Projects.vue'
 import Feature from './components/Fearure.vue'
+import Contact from './components/Contact.vue'
 </script>
 
 <template>
@@ -19,6 +20,9 @@ import Feature from './components/Fearure.vue'
     </section>
     <section>
       <Feature/>
+    </section>
+    <section>
+      <Contact/>
     </section>
   </div>
 </template>
