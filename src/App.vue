@@ -5,6 +5,7 @@ import About from './components/About.vue'
 import Projects from './components/Projects.vue'
 import Feature from './components/Fearure.vue'
 import Contact from './components/Contact.vue'
+import Footer from './components/Footer.vue'
 </script>
 
 <template>
@@ -23,6 +24,9 @@ import Contact from './components/Contact.vue'
     </section>
     <section>
       <Contact/>
+    </section>
+    <section>
+      <Footer/>
     </section>
   </div>
 </template>
